@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: auto;
+  background: #2596be;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  border: 2px dashed #bea925;
+  height: 500px;
+  width: 700px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wrapper .active:hover {
+  border: 2px solid #6c25be;
+}
+
+.wrapper .icon {
+  font-size: 100px;
+  color: #bea925;
+}
+
+.drag-area h1 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #bea925;
+}
+.wrapper button:hover {
+  transition: ease-in 0.7s;
+  box-shadow: inset 300px 0 0 0 #6c25be;
+  cursor: pointer;
+  color: rgb(11, 11, 15);
+}
+
+.wrapper span {
+  font-size: 25px;
+  font-weight: 500;
+  color: #6c25be;
+  margin: 10px 0 15px 0;
+}
+
+.wrapper button {
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background: #6c25be;
+  color: #5256ad;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
